@@ -1,0 +1,148 @@
+body {
+    background-color: black;
+    animation: bg-color 10s infinite alternate;
+    animation: bg-color 10s infinite alternate;
+    font-family: 'Oxygen', sans-serif;
+}
+
+@keyframes bg-color {
+    0% {
+        background-color: #0731A5;
+    }
+    50% {
+        background-color: #EF0012;
+    }
+    100% {
+        background-color: #F5CF00;
+    }
+}
+
+.resume-title {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.resume-title h1 {
+    font-family: 'Concert One', cursive;
+    font-weight: bold;
+    color: #ffffff;
+    text-transform: uppercase;
+    animation: lightSpeedIn 2s ease-out;
+}
+
+
+@keyframes lightSpeedIn {
+    from {
+      -webkit-transform: translate3d(100%, 0, 0) skewX(-30deg);
+      transform: translate3d(100%, 0, 0) skewX(-30deg);
+      opacity: 0;
+    }
+  
+    60% {
+      -webkit-transform: skewX(20deg);
+      transform: skewX(20deg);
+      opacity: 1;
+    }
+  
+    80% {
+      -webkit-transform: skewX(-5deg);
+      transform: skewX(-5deg);
+    }
+  
+    to {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+.resume-title {
+    font-family: 'Concert One', cursive;
+    color: #ffffff;
+}
+
+.img-responsive {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.fa-icon, .fab, .fas {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 36px;
+}
+
+.fa-icon {
+    color: #ffffff;
+}
+
+.card {
+    margin: 2rem 1rem;
+    border: none;
+}
+
+.card-block {
+    padding: 4rem;
+}
+
+
+h2, p {
+    margin: 15px 0;
+}
+
+h3 {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+ul {
+    list-style-position: inside;
+    padding-left: 0;
+}
+
+.col-sm-4.about-me, .col-sm-8.about-me {
+    align-self: center;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover {
+    color: #000000;
+}
+
+small {
+    color: #787773;
+    font-size: 1em;
+}
+
+.contact h1 {
+    font-family:'Concert One', cursive;
+    text-align: center;
+    color: #ffffff;
+}
+
+.contact-links {
+    display: flex;
+    align-content: center;
+    text-align: center;
+    color: #ffffff;
+}
+
+@media only screen and (min-width: 320px) and (max-device-width: 768px)  {
+    .contact-links {
+    flex-direction: column;
+    }
+}
+
+.linkedin-link a {
+    font-size: 1rem;
+}
+
