@@ -17,11 +17,12 @@ body {
     }
 }
 
+.title-container {
+    padding: 40px 20px;
+}
+
 .resume-title {
-    display: flex;
-    flex-direction: column; 
-    justify-content: center;
-    margin-top: 2em;
+    text-align: center;
 }
 
 .resume-title h1 {
@@ -123,15 +124,19 @@ small {
     font-size: 1em;
 }
 
-.contact h1 {
+.footer-container h1 {
     font-family:'Concert One', cursive;
     text-align: center;
     color: #ffffff;
 }
 
+.col-xs-12 {
+    width: 100%;
+}
+
 .contact-links {
     display: flex;
-    align-content: center;
+    justify-content: space-around;
     text-align: center;
     color: #ffffff;
 }
